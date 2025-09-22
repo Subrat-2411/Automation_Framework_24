@@ -57,7 +57,7 @@ public class BaseClass {
 
 	//	WebDriver driver = null;
 
-		String browser = System.getProperty("browser");
+		String browser = System.getProperty("browser",futil.getDataFromProperty("browser"));
 
 		if (browser.equals("chrome"))
 			driver = new ChromeDriver();
