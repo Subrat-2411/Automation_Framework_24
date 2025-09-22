@@ -30,6 +30,6 @@ public class TC_DWS_001_Test extends BaseClass{
 		
 		driver.findElement(By.xpath("(//a[contains(text(),'Desktops')])[1]")).click();
 		
-		Assert.assertEquals(driver.getTitle(), "Demo Web Shop. Deskt","Books Page is not Displayed.");
+		Assert.assertEquals(driver.getTitle(), "Demo Web Shop. Desktop","Books Page is not Displayed.");
 	}
 }
