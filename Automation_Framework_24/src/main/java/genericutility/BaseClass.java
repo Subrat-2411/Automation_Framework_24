@@ -55,7 +55,7 @@ public class BaseClass {
 	@BeforeClass
 	public void openBrowser() throws IOException {
 
-		WebDriver driver = null;
+	//	WebDriver driver = null;
 
 		String browser = System.getProperty("browser");
 
